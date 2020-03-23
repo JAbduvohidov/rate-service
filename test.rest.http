@@ -1,0 +1,40 @@
+### get all rates
+GET http://localhost:8002/api/rates
+
+### get rate by movie id
+GET http://localhost:8002/api/rates/1
+
+### removie rate of a movie by user id
+DELETE http://localhost:8002/api/rates/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibG9naW4iOiJtb2RlcmF0b3IiLCJyb2xlIjoiTU9ERVJBVE9SIiwiZXhwIjoxNTg0OTE5NDUwfQ.pSSSHM6Gsnp1vC3p0hn_bach7La3D2g4-LCL0SoriN4
+
+### add new or update rate
+POST http://localhost:8002/api/rates/
+Content-Type: application/json
+
+{
+  "id": 0,
+  "movie_id": 1,
+  "title": "Aquaman",
+  "description": "New superhero that came from the deep ocean",
+  "image": "http://i.pravatar.cc/300",
+  "year": "2019",
+  "country": "USA",
+  "actors": [
+    ""
+  ],
+  "genres": [
+    "fantasy",
+    "action"
+  ],
+  "creators": [
+    ""
+  ],
+  "studio": "",
+  "ext_link": "",
+  "user_id": 7,
+  "user_name": "Vasya",
+  "rate": 6
+}
+
+###
