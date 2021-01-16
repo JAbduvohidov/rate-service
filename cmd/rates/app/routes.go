@@ -16,18 +16,18 @@ func (s *Server) InitRoutes() {
 
 	s.router.GET("/api/rates/{id}",
 		s.handleGetRate(),
-		logger.Logger( "RATES"),
+		logger.Logger( "RATE"),
 	)
 
 	s.router.DELETE("/api/rates/{id}",
 		s.handleDeleteRate(),
 		authenticated.Authenticated(jwt.IsContextNonEmpty, false, ""),
 		jwt.JWT(jwt.SourceAuthorization, reflect.TypeOf((*token.Payload)(nil)).Elem(), s.secret),
-		logger.Logger("RATES"),
+		logger.Logger("RATE"),
 	)
 
 	s.router.POST("/api/rates/",
 		s.handleNewRate(),
-		logger.Logger("RATES"),
+		logger.Logger("RATE"),
 	)
 }

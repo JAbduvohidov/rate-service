@@ -2,8 +2,8 @@ github.com/JAbduvohidov/di v0.0.0-20200314092359-5c95b4ada9f8 h1:Q3W1iUUcoPX7KRB
 github.com/JAbduvohidov/di v0.0.0-20200314092359-5c95b4ada9f8/go.mod h1:1LTR2Lu990Wg5B0fUC/8OZwSAZCS5I3NGYlZnCBZez8=
 github.com/JAbduvohidov/jwt v0.0.0-20200314105802-4a51e9a9d133 h1:XYs7Tgb+aLRlsAyC/3rvuyDvH3741mA0tAEhCYuo9jE=
 github.com/JAbduvohidov/jwt v0.0.0-20200314105802-4a51e9a9d133/go.mod h1:KsjmwgWjklgAUSvrOkjdldqkbCNs736uGaTAkwy8GgU=
-github.com/JAbduvohidov/mux v0.0.0-20200315114007-51e21348a81e h1:FNY+CJBsYrFstf34HMW8fvKeT1ckMdUGxu1OCYpRg1g=
-github.com/JAbduvohidov/mux v0.0.0-20200315114007-51e21348a81e/go.mod h1:guS+CwLIN4tYlj4fDUWI16VonAAGWOctWbTt794Inlo=
+github.com/JAbduvohidov/mux v0.0.0-20210116064825-8170b62fd4fa h1:ctXgeK8IhR4rxBt5h1Mnz5ZZPenuL5fXBXnPhcWbbTo=
+github.com/JAbduvohidov/mux v0.0.0-20210116064825-8170b62fd4fa/go.mod h1:guS+CwLIN4tYlj4fDUWI16VonAAGWOctWbTt794Inlo=
 github.com/JAbduvohidov/rest v0.0.0-20200314100911-83a7cb6fd01c h1:ti/pTcx/Gy52mTqc+Kd6Hry92WL1aSCNZesYNFzYp2M=
 github.com/JAbduvohidov/rest v0.0.0-20200314100911-83a7cb6fd01c/go.mod h1:VLDAHPifwHr6FDK0wLA4iMdejvwDs94sT+dbI/udHjA=
 github.com/cockroachdb/apd v1.1.0 h1:3LFP3629v+1aKXU5Q37mxmRxX/pIu1nijXydLShEq5I=
@@ -48,7 +48,6 @@ github.com/jackc/pgtype v0.0.0-20190824184912-ab885b375b90/go.mod h1:KcahbBH1nCM
 github.com/jackc/pgtype v0.0.0-20190828014616-a8802b16cc59/go.mod h1:MWlu30kVJrUS8lot6TQqcg7mtthZ9T0EoIBFiJcmcyw=
 github.com/jackc/pgtype v1.2.0 h1:JuOJqN8dtahBO+jqvtAdMiY32NI5obiZRWa+C17Vd4s=
 github.com/jackc/pgtype v1.2.0/go.mod h1:5m2OfMh1wTK7x+Fk952IDmI4nw3nPrvtQdM0ZT4WpC0=
-github.com/jackc/pgx v3.6.2+incompatible h1:2zP5OD7kiyR3xzRYMhOcXVvkDZsImVXfj+yIyTQf3/o=
 github.com/jackc/pgx/v4 v4.0.0-20190420224344-cc3461e65d96/go.mod h1:mdxmSJJuR08CZQyj1PVQBHy9XOp5p8/SHH6a0psbY9Y=
 github.com/jackc/pgx/v4 v4.0.0-20190421002000-1b8f0016e912/go.mod h1:no/Y67Jkk/9WuGR0JG/JseM9irFbnEPbuWV2EELPNuM=
 github.com/jackc/pgx/v4 v4.0.0-pre1.0.20190824185557-6972a5742186/go.mod h1:X+GQnOEnf1dqHGpw7JmHqHc1NxDoalibchSk9/RWuDc=
